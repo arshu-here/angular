@@ -1,15 +1,1 @@
-<h1 [class]="salary > 100 ? colorOfText : color">{{salary}}</h1>
-
-<h3 [class]="colorOfText">My salary is above 100</h3>
-
-<ng-template #elseOfsal>
-  <h3>salary is normal</h3>
-</ng-template>
-
-<button (click) = "changeTitle()">Click me</button>
-
-<ul>
-  <li *ngFor="let f of fruits">{{f}}</li>
-</ul>
-
-<h1 class="say">Say anything</h1>
+<app-child [list] = "fruits" [bio] = "data"></app-child>

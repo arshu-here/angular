@@ -12,6 +12,7 @@ export class AppComponent {
   color='elseColor';
 
   fruits:string[] = ['mango', 'apple', 'banana', 'leechi'];
+  data = {name: 'Akshat', age:22};
 
   constructor() {
     this.title = 'hello world';
