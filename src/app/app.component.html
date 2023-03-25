@@ -1,6 +1,6 @@
 <h1 [class]="salary > 100 ? colorOfText : color">{{salary}}</h1>
 
-<h3 [class]="colorOfText" *ngIf="checkSalary(); else elseOfsal">My salary is above 100</h3>
+<h3 [class]="colorOfText">My salary is above 100</h3>
 
 <ng-template #elseOfsal>
   <h3>salary is normal</h3>
