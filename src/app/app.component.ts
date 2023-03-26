@@ -19,6 +19,10 @@ export class AppComponent {
     this.salary = 100;
   }
 
+  parentFunction(message:string) {
+    console.log(message);
+  }
+
   checkSalary() {
     return this.salary > 100;
   }

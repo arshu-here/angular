@@ -1,0 +1,2 @@
+In Angular, you can pass a function from a parent component to a child component 
+using the input decorator and the EventEmitter.
